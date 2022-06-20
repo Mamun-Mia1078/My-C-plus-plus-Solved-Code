@@ -1,3 +1,5 @@
+// problem 1 to 25 solved code 
+
 // Declare a Read-Only Variable with the const Keyword freecodecamp solution
 const FCC = "freeCodeCamp";
 let fact = "is cool!";
