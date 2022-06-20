@@ -32,3 +32,7 @@ const myAdverb = "quickly";
 // Only change code below this line
 var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; // Only change this line;
 // Only change code above this line
+
+//*Escape Sequences in Strings
+
+var myStrs = "FirstLine\n\t\\SecondLine\nThirdLine";
