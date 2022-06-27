@@ -120,8 +120,16 @@ function testSize(num) {
   
   sequentialSizes(1);
 
+// *80 Returning Boolean Values from Functions
+function isLess(a, b) {
+  // Only change code below this line
 
-  //* 79 Replacing If Else Chains with Switch
+   return a <= b;
+
+  // Only change code above this line
+}
+
+isLess(10, 15);
 
 
   
