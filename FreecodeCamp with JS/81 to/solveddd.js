@@ -43,4 +43,28 @@ function chainToSwitch(val) {
   abTest(2, 2);
 
 
-  //*
+  //*Build JavaScript Objects
+  const myDog = {
+    // Only change code below this line
+  name:'Kitty',
+  legs:2,
+  tails:6,
+   friends : ["tommy","toran","toufiq"]
+  
+    // Only change code above this line
+  };
+
+
+  //83*Accessing Object Properties with Dot Notation
+  // Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+
+//*
