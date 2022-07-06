@@ -49,3 +49,37 @@ function phoneticLookup(val) {
     // Only change code above this line
     return result;
   }
+
+
+  //*93  Testing Objects for Properties
+
+  
+function checkObj(obj, checkProp) {
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
+
+
+//*94Manipulating Complex Objects
+var myMusic = [
+  {
+    artist: "Billy Joel",
+    title: "Piano Man",
+    release_year: 1973,
+    formats: ["CD", "8T", "LP"],
+    gold: true
+  },
+  // Add record here
+  {
+    artist: "Deep Purple",
+    title: "Smoke on the water",
+    release_year: 1976,
+    formats: ["CD", "8T", "LP"]
+  }
+];
+//*95 Accessing Nested Objects
+
+
