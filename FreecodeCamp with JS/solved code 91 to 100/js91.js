@@ -150,3 +150,30 @@ function updateRecords(records, id, prop, value) {
 }
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+
+//*98 Iterate with JavaScript For Loops
+var myArrayss = [];
+for (var m = 1; m < 6; m++) {
+  myArrayss.push(m);
+}
+
+//*99 Iterate Odd Numbers With a For Loop
+// Setup
+const myArrays = [];
+
+// Only change code below this line
+for (let i = 1 ; i< 10; i += 2){
+  myArrays.push(i);
+}
+
+//* 100 Count Backwards With a For Loop
+// Setup
+const myyArray = [];
+
+// Only change code below this line
+
+for (let k = 9; k > 0; k -= 2) {
+  myyArray.push(k);
+}
+// end this part 
