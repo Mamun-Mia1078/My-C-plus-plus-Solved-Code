@@ -29,4 +29,10 @@ function multiplyAll(arr) {
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 
-//*103 Iterate with JavaScript Do...While Loops
+//*103 Use the parseInt Function
+
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+convertToInteger("56");
