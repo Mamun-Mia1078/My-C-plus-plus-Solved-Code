@@ -44,3 +44,8 @@ function convertToInteger(str) {
   return parseInt(str, 2);
 }
 convertToInteger("10011");
+//*105 Use the Conditional (Ternary) Operator
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal";
+}
+//*106
