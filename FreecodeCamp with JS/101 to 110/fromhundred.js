@@ -48,4 +48,12 @@ convertToInteger("10011");
 function checkEqual(a, b) {
   return a === b ? "Equal" : "Not Equal";
 }
-//*106
+//*106 Use Multiple Conditional (Ternary) Operators
+function checkSign(num) {
+  return num > 0 ? "positive"
+    : num < 0 ? "negative"
+    : "zero";
+}
+
+
+//*107 
